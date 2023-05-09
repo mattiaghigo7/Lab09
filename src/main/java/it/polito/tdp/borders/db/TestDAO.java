@@ -13,5 +13,8 @@ public class TestDAO {
 
 		System.out.println("Lista di tutte le nazioni:");
 		List<Country> countries = dao.loadAllCountries();
+		for(Country c : countries) {
+			System.out.println(c);
+		}
 	}
 }
