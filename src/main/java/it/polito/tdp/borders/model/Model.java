@@ -20,7 +20,6 @@ public class Model {
 	private BordersDAO dao;
 
 	public Model() {
-		//inizializza
 		this.grafo = new SimpleGraph<>(DefaultEdge.class);
 		this.vertici = new ArrayList<>();
 		this.allVertici = new ArrayList<>();
